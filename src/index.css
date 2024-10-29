@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: sans-serif;
+}
+
+.bg-gradient-main {
+    background: linear-gradient(to top, #23fb07, #8ae217);
+}
+
+.bg-gradient-overlay {
+    background: linear-gradient(180deg, rgb(252, 251, 251) 0%, rgb(100, 248, 100) 40%, rgba(0, 212, 255, 0) 100%);
+}
+
+.radial-gradient-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(59, 240, 53, 0.8) 0%, rgba(250, 214, 92, 0) 60%);
+}
